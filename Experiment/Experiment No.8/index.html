@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gym Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🏋️ Gym Admission</h1>
+        <p>Start your fitness journey today</p>
+
+        <form id="gymForm">
+
+            <label>Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <span id="nameError"></span>
+
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <span id="emailError"></span>
+
+            <label>Phone Number</label>
+            <input type="text" id="phone" placeholder="Enter 10 digit number">
+            <span id="phoneError"></span>
+
+            <label>Age</label>
+            <input type="number" id="age" placeholder="Enter your age">
+            <span id="ageError"></span>
+
+            <label>Membership</label>
+            <select id="membership">
+                <option value="">Select Membership</option>
+                <option>Monthly</option>
+                <option>Quarterly</option>
+                <option>Yearly</option>
+            </select>
+
+            <button type="submit">JOIN NOW</button>
+
+            <h3 id="message"></h3>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
